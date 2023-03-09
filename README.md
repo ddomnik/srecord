@@ -1,3 +1,14 @@
+# Installation
+1. Download installer exe from release page
+2. Run installer
+3. Add path to /bin folder to PATH environment variable
+4. Run CMD / Powershell for usage
+
+# Usage
+### Example usage .bin to .hex conversion
+` srec_cat .\hello_world.bin -binary -offset 0x10000 -output hello_world.hex -Intel`
+
+
 # SRecord
 
 The SRecord package is a collection of powerful tools for manipulating EPROM load files.
